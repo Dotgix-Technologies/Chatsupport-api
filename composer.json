@@ -1,0 +1,30 @@
+{
+    "name": "dotgix/chatsupport",
+    "description": "This package will add live chat support system in your laravel project",
+    "type": "library",
+    "require": {
+        "pusher/pusher-php-server": "^7.2",
+        "livewire/livewire": "^3.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dotgix\\Chatsupport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dotgix\\Chatsupport\\ChatSupportServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Dotgix Technologies",
+            "email": "156545625+Dotgix-Technologies@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
